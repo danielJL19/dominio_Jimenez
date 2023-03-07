@@ -1,0 +1,35 @@
+:root{
+    --colorAzulMarino:#13005A;
+    --fontTitle:font-family: 'Playfair Display', serif;
+    --colorCelesteOscuro:#1C82AD;
+    --colorVerde:#03C988;
+    --colorBlanco:#FFFFFF;
+    --colorMorado:#E5B8F4;
+}
+
+body{
+    background-color: var(--colorAzulMarino);
+}
+h1,h2,h3,h4,h5,p,a{
+    font-family:var(--fontTitle);
+
+    font-weight: 400;
+}
+.bg-celesteOscuro{
+    background-color: var(--colorCelesteOscuro);
+}
+.bg-verde{
+    background-color: var(--colorVerde);
+}
+.text-white{
+    color: var(--colorBlanco);
+}
+.loga{
+    width:200px;
+}
+.bg-morado{
+    background-color: var(--colorMorado);   
+}
+.biografia p{
+    font-family: 'Times New Roman', Times, serif;
+}
