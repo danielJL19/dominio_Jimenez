@@ -5,6 +5,7 @@
     --colorVerde:#03C988;
     --colorBlanco:#FFFFFF;
     --colorMorado:#E5B8F4;
+    --colorGold:#F7C04A;
 }
 
 body{
@@ -32,4 +33,16 @@ h1,h2,h3,h4,h5,p,a{
 }
 .biografia p{
     font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    height: 175px;
+}
+.text-gold{
+    color: var(--colorGold);
+}
+.skill{
+    width: 300px;
+}
+.form{
+    width: 400px;
 }
