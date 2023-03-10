@@ -43,6 +43,10 @@ h1,h2,h3,h4,h5,p,a{
 .skill{
     width: 300px;
 }
-.form{
-    width: 400px;
+
+@media (min-width:768px){
+    .form{
+        width: 400px;
+    
+    }
 }
