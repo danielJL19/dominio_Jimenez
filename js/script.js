@@ -7,3 +7,7 @@ function download() {
     downloadInstancia.click()
     document.body.removeChild(downloadInstancia)
 }
+AOS.init({
+    easing: 'fade-up',
+    duration:1200
+})

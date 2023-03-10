@@ -10,31 +10,38 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-xl">
-                <a class="navbar-brand" href="#">Daniel Jimenez</a>
+                <a class="navbar-brand" href="./index.html">Daniel Jimenez</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
                     
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupport">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">Inicio</a>
+                            <a href="#sala-1" class="nav-link active" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Enlace</a>
+                            <a href="#sala-2" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sala-3" class="nav-link">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sala-4" class="nav-link">Formulario</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-
+    <!--HOME-->
     <div class="container-xl">
-        <div class="row my-5 p-3 rounded">
+        <div id="sala-1" class="row my-5 p-3 rounded">
             <div class="col-md-12 biografia row">
                 <h2 class="text-center text-md-start text-light h1 display-1">Daniel Jiménez Lozano</h2>
                 <p class="text-center text-md-start text-light fs-4">Soy un joven apasionado por la informática y las nuevas tecnologías. Estudie tecnico en analista programador en el Instituto INACAP y convalide ramos para avanzar hacia la Ingeniería en Informática. Una de mis metas es ser <span class="text-gold fs-2 fw-bold"> desarrollador Web </span>, dominar las dos áreas : Front-end y Back-end <span class="text-gold">(Estudiante de Ingeniería en Informática) </span>
@@ -48,45 +55,48 @@
         </div>
     </div>
     <div>
+        <!--HABILIDADES TECNICAS-->
         <div class="container-xl">
+            <div id="sala-2">
                 <div class="d-flex justify-content-center">
                     <h2 class="text-center text-white p-2 fs-1 bg-verde skill rounded-pill mb-5">Skills</h2>
                 </div>
-                <div class="row justify-content-center mb-4">
-                    <div class="col-md-3 d-flex flex-column my-2 justify-content-center loga">
+                <div data-aos="fade-rigth" class="row justify-content-center mb-4">
+                    <div data-aos="fade-up" class="col-md-3 d-flex flex-column my-2 justify-content-center loga">
                         <img src="img/php.png" alt="phpImage" class="img-fluid logo">
                         <p class="text-center fs-2 text-gold">PHP</p>
                     </div>
-                    <div class="col-md-3 d-flex flex-column my-2 justify-content-center loga">
+                    <div data-aos="fade-left" class="col-md-3 d-flex flex-column my-2 justify-content-center loga">
                         <img src="img/js.png" alt="jsImage" class="img-fluid logo">
                         <p class="text-center fs-2 text-gold">Javascript</p>
                     </div>
-                    <div class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
+                    <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/mysql.png" alt="mysqlImage" class="img-fluid logo">
                         <p class="text-center fs-2 text-gold">MYSQL</p>
                     </div>
-                    <div class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
+                    <div data-aos="fade-left" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/css-3.png" alt="cssImage" class="img-fluid logo">
                         <p class="text-center fs-2 text-gold">CSS</p>
                     </div>
-                    <div class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
+                    <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/html-5.png" alt="cssImage" class="img-fluid logo">
                         <p class="text-center fs-2 text-gold">HTML</p>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <section class="my-2">
         <section class="my-2">
         <!--PROYECTOS-->
-        <div class="container-xl my-5">
+        <div class="container-xl my-5" id="sala-3">
             <div class="d-flex justify-content-center">
-                <h2 class="text-center text-light bg-verde skill rounded-pill p-2 mb-5">Proyectos Hechos por Mi</h2>
+                <h2 data-aos="fade-up" class="text-center text-light bg-verde skill rounded-pill p-2 mb-5">Proyectos Hechos por Mi</h2>
             </div>
             <div class="row justify-content-center row-md-none justify-content-md-start d-md-flex">
-                <div class="loga me-5">
+                <div data-aos="zoom-in" class="loga me-5">
                     <a href="http://3.95.170.186" target="_blank">
-                        <div class="card">
+                        <div class="card mb-3">
                             <img src="/img/sendemail.png" class="card-img-top img-fluid logo" alt="sendmail">
                             <div class="card-body">
                             <p class="card-text">PROYECTO PHP ENVIO DE CORREO</p>
@@ -94,7 +104,7 @@
                         </div>
                     </a>    
                 </div>
-                <div class="loga me-5">
+                <div data-aos="zoom-in" class="loga me-5">
                     <a href="https://github.com/danielJL19" target="_blank">
                         <div class="card">
                             <img src="/img//github.png" class="card-img-top img-fluid logo" alt="GIT">
@@ -107,32 +117,35 @@
             </div>
         </div>
     </section>
+    <!--FORMULARIO-->
     <div class="container-xl">
-        <h2 class="text-center text-light mb-5">Si eres reclutador y quieres contactarte. Rellena esta Formulario</h2>
-        <div class="bg-white form">
-            
-            <form action="https://formsubmit.co/danieljmnz15@hotmail.com" class="p-3 rounded" method="POST">
-                <div class="mb-3">
-                    <label for="name" class="form-label">Nombre</label>
-                    <input type="text" name="name" class="form-control" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control" name="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="subject" class="form-label">Asunto</label>
-                    <input type="text" name="subject" class="form-control">
-                </div>
-                <div class="form-floating">
-                    <textarea name="comments" cols="44" rows="20" placeholder="Comentario"></textarea>
-                    <label for="comments"></label>
-                </div>
-                <input type="submit" class="btn btn-success" value="Enviar">
+        <div data-aos="fade-up" id="sala-4">
+            <h2 class="text-center text-light mb-5">Si eres reclutador y quieres contactarte. Rellena esta Formulario</h2>
+            <div class="bg-white form">
+                
+                <form action="https://formsubmit.co/danieljmnz15@hotmail.com" class="p-3 rounded" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" name="name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Asunto</label>
+                        <input type="text" name="subject" class="form-control">
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control mb-2" name="comments" cols="44" rows="20" placeholder="Comentario"></textarea>
+                        <label for="comments"></label>
+                    </div>
+                    <input type="submit" class="btn btn-success" value="Enviar">
 
-                <input type="hidden" name="_next" value="https://danieljimenezl.netlify.app/">
-                <input type="hidden" name="_captcha" value="false">
-            </form>
+                    <input type="hidden" name="_next" value="https://danieljimenezl.netlify.app/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
         </div>
     </div>
     <footer class="my-4">
@@ -140,6 +153,7 @@
             <p class="text-center text-light h4">© 2023 Daniel Jimenez , Todos los derechos reservados</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/js/script.js"></script>
 </body>
