@@ -42,12 +42,12 @@
     <!--HOME-->
     <div class="container-xl">
         <div id="sala-1" class="row my-5 p-3 rounded">
-            <div class="col-md-12 biografia row">
+            <div class="biografia">
                 <h2 class="text-center text-md-start text-light h1 display-1">Daniel Jiménez Lozano</h2>
                 <p class="text-center text-md-start text-light fs-4">Soy un joven apasionado por la informática y las nuevas tecnologías. Estudie tecnico en analista programador en el Instituto INACAP y convalide ramos para avanzar hacia la Ingeniería en Informática. Una de mis metas es ser <span class="text-gold fs-2 fw-bold"> desarrollador Web </span>, dominar las dos áreas : Front-end y Back-end <span class="text-gold">(Estudiante de Ingeniería en Informática) </span>
                 </p>
                 <div class="d-block text-center text-md-start">
-                    <button type="button" class="btn btn-success fs-5 mb-2 fw-bold rounded-pill p-3" onclick="download()">Obtener CV</button>
+                    <button type="button" class="btn btn-success fs-5 mb-2 fw-bold rounded p-3" onclick="download()">Obtener CV</button>
                     
                 </div>
             </div>
@@ -61,6 +61,7 @@
                 <div class="d-flex justify-content-center">
                     <h2 class="text-center text-white p-2 fs-1 bg-verde skill rounded-pill mb-5">Skills</h2>
                 </div>
+                
                 <div data-aos="fade-rigth" class="row justify-content-center mb-4">
                     <div data-aos="fade-up" class="col-md-3 d-flex flex-column my-2 justify-content-center loga">
                         <img src="img/php.png" alt="phpImage" class="img-fluid logo">
@@ -94,8 +95,8 @@
                 <h2 data-aos="fade-up" class="text-center text-light bg-verde skill rounded-pill p-2 mb-5">Proyectos Hechos por Mi</h2>
             </div>
             <div class="row justify-content-center row-md-none justify-content-md-start d-md-flex">
-                <div data-aos="zoom-in" class="loga me-5">
-                    <a href="http://3.95.170.186" target="_blank">
+                <div data-aos="zoom-in" class="loga">
+                    <a href="http://3.95.206.133/" target="_blank">
                         <div class="card mb-3">
                             <img src="/img/sendemail.png" class="card-img-top img-fluid logo" alt="sendmail">
                             <div class="card-body">
@@ -104,7 +105,7 @@
                         </div>
                     </a>    
                 </div>
-                <div data-aos="zoom-in" class="loga me-5">
+                <div data-aos="zoom-in" class="loga">
                     <a href="https://github.com/danielJL19" target="_blank">
                         <div class="card">
                             <img src="/img//github.png" class="card-img-top img-fluid logo" alt="GIT">
@@ -119,34 +120,36 @@
     </section>
     <!--FORMULARIO-->
     <div class="container-xl">
-        <div data-aos="fade-up" id="sala-4">
-            <h2 class="text-center text-light mb-5">Si eres reclutador y quieres contactarte. Rellena esta Formulario</h2>
-            <div class="bg-white form">
-                
-                <form action="https://formsubmit.co/danieljmnz15@hotmail.com" class="p-3 rounded" method="POST">
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Nombre</label>
-                        <input type="text" name="name" class="form-control" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Correo Electronico</label>
-                        <input type="email" class="form-control" name="email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="subject" class="form-label">Asunto</label>
-                        <input type="text" name="subject" class="form-control">
-                    </div>
-                    <div class="form-floating">
-                        <textarea class="form-control mb-2" name="comments" cols="44" rows="20" placeholder="Comentario"></textarea>
-                        <label for="comments"></label>
-                    </div>
-                    <input type="submit" class="btn btn-success" value="Enviar">
 
-                    <input type="hidden" name="_next" value="https://danieljimenezl.netlify.app/">
-                    <input type="hidden" name="_captcha" value="false">
-                </form>
+            <div data-aos="fade-up" id="sala-4">
+                <h2 class="text-center text-light mb-5">Si eres reclutador y quieres contactarte. Rellena esta Formulario</h2>
+                <div class="bg-white form">
+                    
+                    <form action="https://formsubmit.co/danieljmnz15@hotmail.com" class="p-3 rounded" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" name="name" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Asunto</label>
+                            <input type="text" name="subject" class="form-control">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control mb-2" name="comments" cols="44" rows="20" placeholder="Comentario"></textarea>
+                            <label for="comments"></label>
+                        </div>
+                        <input type="submit" class="btn btn-success" value="Enviar">
+
+                        <input type="hidden" name="_next" value="https://danieljimenezl.netlify.app/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
             </div>
-        </div>
+
     </div>
     <footer class="my-4">
         <div class="container-xl">
