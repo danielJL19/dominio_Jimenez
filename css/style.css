@@ -28,6 +28,9 @@ h1,h2,h3,h4,h5,p,a{
 .loga{
     width:200px;
 }
+.loga2{
+    width:300px;
+}
 .bg-morado{
     background-color: var(--colorMorado);   
 }
