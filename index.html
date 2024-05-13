@@ -11,26 +11,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container">
-                <a class="navbar-brand" href="./index.html">Daniel Jimenez</a>
+                <a class="navbar-brand text-dark" style="font-weight: 700;" href="./index.html">Daniel Jimenez</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
                     
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupport">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a href="#sala-1" class="nav-link active" aria-current="page">Home</a>
+                            <a href="#sala-1" class="nav-link active text-dark" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#sala-2" class="nav-link">Skills</a>
+                            <a href="#sala-2" class="nav-link text-dark">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#sala-3" class="nav-link">Proyectos</a>
+                            <a href="#sala-3" class="nav-link text-dark">Proyectos</a>
                         </li>
 
                     </ul>
@@ -43,8 +46,8 @@
         <div id="sala-1" class="row my-5 p-3 rounded">
             <div class="col-md-8">
                 <div class="biografia">
-                    <h2 class="text-center text-md-start h1 display-3">Bienvenido a mi Portafolio</h2>
-                    <p class="text-center text-md-start fs-5">
+                    <h2 class="text-center text-md-start h1 display-3" style="font-weight: 800;">Bienvenido a mi <span class="text-gold">Portafolio</span></h2>
+                    <p class="text-center text-md-start fs-5" style="font-weight: 300;color:#5b5b5b;">
                         Soy un joven apasionado por la informática y las nuevas tecnologías. Tengo <b>experiencia</b> trabajando con diversas tecnologías para el diseño, creación y ejecución de 
                         software. Además de aplicar <b>buenas practicas y patrones de diseño</b> para el escalamiento de software
                     </p>
@@ -70,53 +73,64 @@
                 <div data-aos="fade-rigth" class="row justify-content-center mb-4">
                     <div data-aos="fade-up" class="col-md-3 d-flex flex-column my-2 justify-content-center loga">
                         <img src="img/php.png" alt="phpImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">PHP</p>
                     </div>
                     <div data-aos="fade-left" class="col-md-3 d-flex flex-column my-2 justify-content-center loga">
                         <img src="img/js.png" alt="jsImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">Javascript</p>
                     </div>
                     <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/mysql.png" alt="mysqlImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">MYSQL</p>
                     </div>
                     <div data-aos="fade-left" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/css-3.png" alt="cssImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">CSS</p>
                     </div>
                     <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/html-5.png" alt="cssImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">HTML</p>
                     </div>
                     <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/laravel_plain_wordmark_logo_icon_146439.png" alt="cssImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">Laravel</p>
                     </div>
                     <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/rubi.png" alt="cssImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">Ruby</p>
                     </div>
                     <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/bootstrap.png" alt="cssImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">Bootstrap</p>
                     </div>
                     <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img//mongodb1.png" alt="cssImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">Mongodb</p>
                     </div>
                     <div data-aos="fade-rigth" class="col-md-3 d-flex my-2 flex-column justify-content-center loga">
                         <img src="img/postgres.png" alt="cssImage" class="img-fluid logo">
-                        <p class="text-center fs-2 text-gold">Postgresql</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <div class="container">
+        <div class="d-flex justify-content-center">
+            <h2 class="text-center text-white p-1 fs-2 bg-verde skill rounded-pill my-5">Mis proyectos</h2>
+        </div>
         <section>
-            <div class="d-flex justify-content-evenly">
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/perritosBusqueda.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/inventory.png" alt="">
+                </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </section>
+    </div>
+    
+    <div class="container">
+        <section class="my-5" id="sala-3">
+            <div class="d-flex justify-content-between">
                 <a href="https://www.linkedin.com/in/danieljimenezjl19/" class="nav-link text-gray fw-bold">
                     <img src="img/linkedin.png" alt="" height="32"> Linkedin
                 </a>
@@ -131,15 +145,18 @@
                 </a>
             </div>
         </section>
+
     </div>
     <footer class="my-4">
         <div class="container">
-            <p class="text-center text-light h4">© 2024 Daniel Jimenez , Todos los derechos reservados</p>
+            <p class="text-center h4 text-gold" style="font-weight: 800;">© 2024 Daniel Jimenez , Todos los derechos reservados</p>
         </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="/js/script.js"></script>
 </body>
 </html>

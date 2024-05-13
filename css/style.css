@@ -44,7 +44,7 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 .logo{
-    height: 175px;
+    height: 155px;
 }
 .text-gold{
     color: var(--colorGold);
@@ -61,4 +61,24 @@ h2{
 }
 html{
     scroll-behavior: smooth;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
