@@ -8,13 +8,19 @@
     --colorGold:#F7C04A;
 }
 
-body{
-    background-color: var(--colorAzulMarino);
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
+
 h1,h2,h3,h4,h5,p,a{
     font-family:var(--fontTitle);
 
     font-weight: 400;
+}
+h2{
+    font-weight: 900;
 }
 .bg-celesteOscuro{
     background-color: var(--colorCelesteOscuro);

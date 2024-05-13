@@ -15,8 +15,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container-xl">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
                 <a class="navbar-brand" href="./index.html">Daniel Jimenez</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
                     
@@ -39,28 +39,32 @@
         </nav>
     </header>
     <!--HOME-->
-    <div class="container-xl">
+    <div class="container">
         <div id="sala-1" class="row my-5 p-3 rounded">
-            <div class="biografia">
-                <h2 class="text-center text-md-start text-light h1 display-1">Daniel Jiménez Lozano</h2>
-                <p class="text-center text-md-start text-light fs-4">
-                    Soy un joven apasionado por la informática y las nuevas tecnologías. Tengo experiencia trabajando con diversas tecnologías para el diseño, creación y ejecución de 
-                    software. Además de aplicar buenas practicas y patrones de diseño para el escalamiento de software
-                </p>
-                <div class="d-block text-center text-md-start">
-                    <button type="button" class="btn btn-success fs-5 mb-2 fw-bold rounded p-3" onclick="download()">Obtener CV</button>
-                    <a href="https://www.linkedin.com/in/danieljimenezjl19/" class="btn btn-info fs-5 mb-2 fw-bold rounded p-3 text-light" target="_blank">Ir a linkedin</a>
+            <div class="col-md-8">
+                <div class="biografia">
+                    <h2 class="text-center text-md-start h1 display-3">Bienvenido a mi Portafolio</h2>
+                    <p class="text-center text-md-start fs-5">
+                        Soy un joven apasionado por la informática y las nuevas tecnologías. Tengo <b>experiencia</b> trabajando con diversas tecnologías para el diseño, creación y ejecución de 
+                        software. Además de aplicar <b>buenas practicas y patrones de diseño</b> para el escalamiento de software
+                    </p>
+                    <div class="d-block text-center text-md-start">
+                        <button type="button" class="btn btn-success fs-5 mb-2 fw-bold rounded" onclick="download()">Obtener CV</button>
+                        <a href="https://www.linkedin.com/in/danieljimenezjl19/" class="btn btn-info fs-5 mb-2 fw-bold rounded text-light" target="_blank">Ir a linkedin</a>
+                    </div>
                 </div>
             </div>
-
+            <div class="col-md-4">
+                <img src="img/ai-generated-8718795_1280.webp" height="350" alt="">
+            </div>
         </div>
     </div>
     <div>
         <!--HABILIDADES TECNICAS-->
-        <div class="container-xl">
+        <div class="container">
             <div id="sala-2">
                 <div class="d-flex justify-content-center">
-                    <h2 class="text-center text-white p-2 fs-1 bg-verde skill rounded-pill mb-5">Skills</h2>
+                    <h2 class="text-center text-white p-1 fs-2 bg-verde skill rounded-pill mb-5">Skills</h2>
                 </div>
                 
                 <div data-aos="fade-rigth" class="row justify-content-center mb-4">
@@ -110,111 +114,26 @@
     </div>
 
 
-
-    <section class="my-2">
-        <section class="my-2">
-        <!--PROYECTOS-->
-            
-
-        
-
-        <div class="container-xl my-5" id="sala-3">
-            
-            <div class="d-flex justify-content-center">
-                <h2 data-aos="fade-up" class="text-center text-light bg-verde skill rounded-pill p-2 mb-5">Proyectos</h2>
-            </div>
-            
     <div class="container">
-        <div class="d-flex gap-3">
-            <div class="col-md-6">
-                <img src="/img/clinica.png" class="img-fluid" alt="" >
+        <section>
+            <div class="d-flex justify-content-evenly">
+                <a href="https://www.linkedin.com/in/danieljimenezjl19/" class="nav-link text-gray fw-bold">
+                    <img src="img/linkedin.png" alt="" height="32"> Linkedin
+                </a>
+                <a href="https://github.com/danielJL19" class="nav-link text-gray fw-bold">
+                    <img src="img/github.png" alt="" height="32"> GitHub
+                </a>
+                <a href="https://www.youtube.com/@DanielJimenez-ig8mv" class="nav-link text-gray fw-bold">
+                    <img src="img/youtube.png" alt="" height="32"> Youtube
+                </a>
+                <a href="https://medium.com/@danieljimenezlozano" class="nav-link text-gray fw-bold">
+                    <img src="img/medium.png" alt="" height="32"> Medium
+                </a>
             </div>
-            <div class="text-center">
-                <p class="text-white fs-5">
-                    
-                    ¡Bienvenido a nuestra clínica oftalmológica especializada en cuidado visual! En nuestra plataforma, puedes registrar pacientes de manera eficiente y agendar citas con nuestro sistema de horario flexible. Nuestro objetivo es proporcionar una experiencia sin igual, ofreciendo comodidad y atención personalizada a cada paciente.
-
-                    Con nuestra herramienta:
-                    <ul class="text-start"> 
-                        <li class="text-white">Puedes gestionar fácilmente los datos de los pacientes</li>
-                        <li class="text-white">programar citas de manera rápida y precisa</li>
-                        <li class="text-white">Además, ofrecemos la posibilidad de generar reportes en formato PDF detallados para cada paciente, lo que facilita el seguimiento y la documentación de su historial visual.</li> . 
-                    </ul>
-                </p>
-            </div>
-        </div>   
+        </section>
     </div>
-            <div class="row justify-content-center row-md-none justify-content-md-start d-md-flex">
-                
-                
-
-                <div data-aos="zoom-in" class="loga2">
-                        <div class="card">
-                            <img src="/img/inventory.png" class="card-img-top img-fluid logo" alt="GIT">
-                            <div class="card-body">
-                            <h4 class="card-text text-center">Inventario</h4>
-                            <p>Sistema de inventario para almacenar stock de productos, registro de proveedores y categorías</p>
-                            
-                            </div>
-                            <div class="card-footer">
-                                Tecnologías: Ruby on rails, Postgresql, Ruby, Bootstrap
-                            </div>
-                        </div>
-                  
-                </div>
-                <div data-aos="zoom-in" class="loga2">
-                    <div class="card">
-                        <img src="/img/perritosBusqueda.jpeg" class="card-img-top img-fluid logo" alt="GIT">
-                        <div class="card-body">
-                        <h4 class="card-text text-center">mascotas</h4>
-                        <p>Sistema de busqueda de mascotas mediante avisos,imagenes y comentarios</p>
-                        
-                        </div>
-                        <div class="card-footer">
-                            Tecnologías: Ruby on rails, Postgresql, Ruby, Bootstrap, Turbo, Stimulus
-                        </div>
-                    </div>
-              
-            </div>
-            </div>
-        </div>
-    </section>
-    <!--FORMULARIO-->
-    <!-- <div class="container-xl">
-
-            <div data-aos="fade-up" id="sala-4">
-                <h2 class="text-center text-light mb-5">Si eres reclutador y estás interesado. Rellene este formulario</h2>
-                <div class="bg-white form">
-                    
-                    <form action="https://formsubmit.co/danieljmnz15@hotmail.com" class="p-3 rounded" method="POST">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nombre</label>
-                            <input type="text" name="name" class="form-control" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Correo Electronico</label>
-                            <input type="email" class="form-control" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="subject" class="form-label">Asunto</label>
-                            <input type="text" name="subject" class="form-control">
-                        </div>
-                        <div class="form-floating">
-
-                            <textarea class="form-control mb-2" name="comments" cols="44" rows="20" placeholder="Comentario" id="exampleFormControlTextarea1"></textarea>
-                            <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
-                        </div>
-                        <input type="submit" class="btn btn-success" value="Enviar">
-
-                        <input type="hidden" name="_next" value="https://danieljimenezl.netlify.app/">
-                        <input type="hidden" name="_captcha" value="false">
-                    </form>
-                </div>
-            </div>
-
-    </div> -->
     <footer class="my-4">
-        <div class="container-xl">
+        <div class="container">
             <p class="text-center text-light h4">© 2024 Daniel Jimenez , Todos los derechos reservados</p>
         </div>
     </footer>
