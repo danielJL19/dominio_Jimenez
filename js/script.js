@@ -1,6 +1,6 @@
 function download() {
     const downloadInstancia=document.createElement('a');
-    downloadInstancia.href='https://danieljimenezl.netlify.app/cv.pdf'
+    downloadInstancia.href='https://danieljimenezl.netlify.app/cv_dj2025.pdf'
     downloadInstancia.target='_blank';
     downloadInstancia.download='CV DanielJimenez'
     document.body.appendChild(downloadInstancia)
